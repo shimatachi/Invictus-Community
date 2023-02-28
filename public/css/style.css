@@ -1,12 +1,15 @@
 body,
 html {
-  font-family: "Open Sans", sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   color: #777;
   font-weight: 400;
   width: 100% !important;
   height: 100% !important;
+}
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("../fonts/fonts/RobotoCondensed-Regular.ttf") format("truetype")
 }
 h2,
 h3,
@@ -87,13 +90,13 @@ hr {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 #menu a.navbar-brand {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 24px;
   font-weight: 700;
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  image-rendering: url(../img/favicon.png);
+  image-rendering: url(../img/favicon.ico);
   color: #fff;
   text-transform: uppercase;
 }
@@ -242,8 +245,10 @@ a:focus,
 .intro {
   display: table;
   width: 100%;
+  height: 100%;
   padding: 0;
-  background: url(../img/header/test.gif) center center no-repeat;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 85%, #000 100%), url("../img/header/test.gif");
+  /* background: url(../img/header/test.gif) center center no-repeat; */
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -252,6 +257,8 @@ a:focus,
 }
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
 }
 .intro h1 {
   font-family: "Roboto Condensed", sans-serif;
@@ -259,7 +266,7 @@ a:focus,
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-top: 0;
+  margin-top: -40px;
   margin-bottom: 10px;
 }
 .intro h1 span {
@@ -273,7 +280,7 @@ a:focus,
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
-  margin-bottom: 4  0px;
+  margin-bottom: 4px, 0px;
 }
 header .intro-text {
   padding-top: 350px;
