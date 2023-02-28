@@ -1,5 +1,5 @@
 # Invictus: Community Website (Work in Progress)
-This repository contains the source code for the Invictus Community Website. The website is currently a work in progress and is being built built using Bootstrap CSS library.
+This repository contains the source code for the Invictus Community Website. The website is currently a work in progress and is being built built using React & Bootstrap CSS library.
 
 # Getting Started
 To get started with the project, you can either download the source code or clone the repository using Git.
