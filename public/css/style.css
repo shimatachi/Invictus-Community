@@ -1,5 +1,6 @@
 body,
 html {
+  font-family: "Open Sans", sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   color: #777;
@@ -246,7 +247,6 @@ a:focus,
   display: table;
   width: 100%;
   height: 100%;
-  padding: 0;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 85%, #000 100%), url("../img/header/test.gif");
   /* background: url(../img/header/test.gif) center center no-repeat; */
   background-color: #e5e5e5;
@@ -255,6 +255,7 @@ a:focus,
   background-size: cover;
   -o-background-size: cover;
 }
+
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
   width: 100%;
