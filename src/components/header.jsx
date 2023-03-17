@@ -2,34 +2,21 @@ import React from "react";
 
 export const Header = (props) => {
   return (
-    <header id="header">
-      <div className="intro">
-        <div className="overlay">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-8 col-md-offset-0 intro-text">
-                <h1>
-                  {props.data ? props.data.title : "Loading"}
-                  <span></span>
-                </h1>
-                <p>{props.data ? props.data.title2 : "Loading"}</p>
-                <a
-                  href="#features"
-                  className="btn btn-custom btn-lg page-scroll"
-                >
-                  Join Now
-                </a>{" "}
-                <a
-                  href="#features"
-                  className="btn btn-custom2 btn-lg page-scroll "
-                >
-                  Learn More
-                </a>{" "}
-              </div>
+<header class="masthead">
+            <div class="container px-4 px-lg-5 h-100">
+                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-left text-left">
+                    <div class="col-lg-8 align-self-end">
+                        <h1 class="text-white font-weight-bold">WHERE PASSION MEETS CAMRADERIE.</h1>
+                        {/* <hr class="divider" /> */}
+                        <br>
+                        </br>
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <h2 class="text-white mb-5">INVICTUS AWAITS</h2>
+                        <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </header>
+        </header>
   );
 };

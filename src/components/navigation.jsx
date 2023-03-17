@@ -2,49 +2,18 @@ import React from "react";
 
 export const Navigation = (props) => {
   return (
-    <nav id="menu" className="navbar navbar-default navbar-fixed-top">
-      <div className="container">
-        <div className="navbar-header">
-          <button
-            type="button"
-            className="navbar-toggle collapsed"
-            data-toggle="collapse"
-            data-target="#bs-example-navbar-collapse-1"
-          >
-            {" "}
-            <span className="sr-only">Toggle navigation</span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
-          </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
-            <img src="../img/favicon.ico" alt="..."/>
-          </a>{" "}
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    <div class="container px-4 px-lg-5">
+        <a class="navbar-brand" href="#page-top"><img src="../img/favicon.ico" width="40" height="40"></img></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-left my-2 my-lg-0">
+                <li class="nav-item"><a class="nav-link" href="#about">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Community</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio">Guides</a></li>
+            </ul>
         </div>
-
-        <div
-          className="collapse navbar-collapse"
-          id="bs-example-navbar-collapse-1"
-        >
-          <ul className="nav navbar-nav navbar-left">
-            <li>
-              <a href="#features" className="page-scroll">
-                HOME
-              </a>
-            </li>
-            <li>
-              <a href="#about" className="page-scroll">
-                COMMUNITY
-              </a>
-            </li>
-            <li>
-              <a href="#services" className="page-scroll">
-                GUIDES
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    </div>
+</nav>
   );
 };
