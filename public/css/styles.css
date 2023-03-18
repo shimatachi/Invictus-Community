@@ -95,10 +95,11 @@ body {
 
 hr {
   margin: 1rem 0;
-  color: inherit;
-  background-color: currentColor;
+  color: white;
+  background-color: white;
   border: 0;
-  opacity: 0.25;
+  opacity: 1;
+  width: 9rem;
 }
 
 hr:not([size]) {
@@ -1375,6 +1376,11 @@ progress {
   .col-lg-2 {
     flex: 0 0 auto;
     width: 16.66666667%;
+  }
+
+  .col-lg-20 {
+    flex: 0 0 auto;
+    width: 20%;
   }
 
   .col-lg-3 {
@@ -4605,6 +4611,18 @@ textarea.form-control-lg {
   color: #fff;
 }
 
+.button-bawah {
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  margin-left: 33.5rem;
+  margin-top: -4rem;
+  text-decoration:none;
+}
+
 .card {
   position: relative;
   display: flex;
@@ -7421,6 +7439,10 @@ textarea.form-control-lg {
   margin-top: 3rem !important;
 }
 
+.mt-100 {
+  margin-top: 20rem !important;
+}
+
 .mt-auto {
   margin-top: auto !important;
 }
@@ -7569,6 +7591,11 @@ textarea.form-control-lg {
 .px-5 {
   padding-right: 3rem !important;
   padding-left: 3rem !important;
+}
+
+.px-100 {
+  padding-right: 4rem !important;
+  padding-left: 4rem !important;
 }
 
 .py-0 {
@@ -7850,6 +7877,12 @@ textarea.form-control-lg {
   color: rgba(var(--bs-danger-rgb), var(--bs-text-opacity)) !important;
 }
 
+.text-crimson {
+  --bs-text-opacity: 1;
+  color: #DC143C !important;
+  font-weight: 700;
+}
+
 .text-light {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-light-rgb), var(--bs-text-opacity)) !important;
@@ -7954,6 +7987,11 @@ textarea.form-control-lg {
 .bg-black {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-dark-blue {
+  --bs-bg-opacity: 1;
+  background-color: #000D1F;
 }
 
 .bg-white {
