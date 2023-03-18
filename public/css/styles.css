@@ -4613,7 +4613,7 @@ textarea.form-control-lg {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 1px solid red;
   border-radius: 0.25rem;
 }
 .card > hr {
@@ -11405,8 +11405,16 @@ p {
   line-height: 1.75;
 }
 
+.bg-glx {
+  background: url(../img/about/abt1.png);
+}
+
+.bg-mlx {
+  background: url(../img/misc/vh312.png);
+}
+
 .page-section {
-  padding: 1rem 0;
+  padding: 4rem;
 }
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
@@ -11510,12 +11518,14 @@ p {
 }
 
 header.masthead {
-  padding-top: 15rem;
-  padding-bottom: 6rem;
-  padding-right: 20rem;
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 13rem 0;
   text-align: left;
   color: #fff;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 85%, #000 100%), url("../img/header/test1.png");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 85%, #000 100%), url("../img/header/1085600.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
