@@ -10,13 +10,13 @@ export const Services = (props) => {
                         <h5 class="text-white mb-4">Invictus Community</h5>
                         <div class="text-white mb-1">Blue Protocol</div>
                         <div class="text-white mb-1">Project Zomboid</div>
-                        <div class="text-white mb-1">War Thunder</div>
+                        <div class="text-white mb-4">War Thunder</div>
                         </div>
                     </div>
                     <div class="col-lg-4-5 text-left">
                         <div class="mt-1">
                         <h5 class="text-white mb-4">About Invictus</h5>
-                        <div class="text-white mb-1">Partners</div>
+                        <div class="text-white mb-4">Partners</div>
                         </div>
                     </div>
                     <div class="col-lg text-left">
@@ -24,7 +24,7 @@ export const Services = (props) => {
                         <h5 class="text-white mb-4">Join the Community</h5>
                         <div class="text-white mb-1">Discord</div>
                         <div class="text-white mb-1">Twitter</div>
-                        <div class="text-white mb-1">Youtube</div>
+                        <div class="text-white mb-4">Youtube</div>
                         </div>
                     </div>
                 </div>
