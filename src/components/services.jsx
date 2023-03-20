@@ -2,7 +2,7 @@ import React from "react";
 
 export const Services = (props) => {
   return (
-    <section class="page-section bg-dark text-white ">
+    <section class="page-section bg-dark-blue text-white ">
             <div class="container px-4 px-lg-4">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-4-6 ms-lg-5 text-left">

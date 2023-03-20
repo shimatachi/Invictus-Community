@@ -2,7 +2,7 @@ import React from "react";
 
 export const Team = (props) => {
   return (
-    <footer class="bg-dark py-5">
+    <footer class="bg-dark-blue py-5">
       <div class="container px-4 px-lg-5">
         <div class="small text-center text-white mb-4">
         <img src="../img/inpiktus.png" width="40" height="40"></img>
