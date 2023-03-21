@@ -3,10 +3,15 @@ import React from "react";
 export const About = (props) => {
   return (
     <section class="page-section bg-mlx" id="services">
-        <div class="row row-cols-1 row-cols-md-3 g-5 px-3 mt-100">
+
+        <div class="col text-center">
+            <div class="fs-69 text-white font-roboto-condenses">OUR COMMUNITY GROUPS</div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-5 px-3 mt-lg-69">
         <div class="col">
             <div class="card h-100 bg-dark-blue">
-            <img src="../img/misc/card1.png" alt="..."/>
+            <img src="../img/misc/card01.png" alt="..."/>
             <div class="card-body bg-dark-blue">
                 <h1 class="card-title text-white font-roboto-condenses">LEGIO - ORDO</h1>
                 <h5 class="card-title text-white font-roboto-condenses mb-4">Blue Protocol</h5>
@@ -18,10 +23,10 @@ export const About = (props) => {
         </div>
         <div class="col">
             <div class="card h-100 bg-dark-blue">
-            <img src="../img/misc/card1.png" alt="..."/>
+            <img src="../img/misc/card02.png" alt="..."/>
             <div class="card-body bg-dark-blue">
-                <h1 class="card-title text-white font-roboto-condenses">LEGIO - ORDO</h1>
-                <h5 class="card-title text-white font-roboto-condenses mb-4">Blue Protocol</h5>
+                <h1 class="card-title text-white font-roboto-condenses">Jawa Only Survivor</h1>
+                <h5 class="card-title text-white font-roboto-condenses mb-4">Project Zomboid</h5>
                 <p class="card-text text-white font-roboto-condenses">Nullam quam massa, fringilla quis tortor eu, aliquet faucibus leo. Proin mollis erat congue, interdum ipsum sed, venenatis ante. Fusce non ultrices urna. Proin imperdiet quam diam, vel hendrerit mauris tempor et. Curabitur ut turpis sit amet mi blandit lobortis. Ut bibendum mauris non vehicula pellentesque. Ut ultricies feugiat neque nec ultricies. Fusce vulputate tortor fringilla fermentum congue.</p>
                 <h5 class="card-title text-white font-roboto-condenses">Learn More</h5>
                 <hr class="divider" />
@@ -30,10 +35,10 @@ export const About = (props) => {
         </div>
         <div class="col">
             <div class="card h-100 bg-dark-blue">
-            <img src="../img/misc/card1.png" alt="..."/>
+            <img src="../img/misc/card03.png" alt="..."/>
             <div class="card-body bg-dark-blue">
-                <h1 class="card-title text-white font-roboto-condenses">LEGIO - ORDO</h1>
-                <h5 class="card-title text-white font-roboto-condenses mb-4">Blue Protocol</h5>
+                <h1 class="card-title text-white font-roboto-condenses">Task Force - 13 “Invictus”</h1>
+                <h5 class="card-title text-white font-roboto-condenses mb-4">War Thunder</h5>
                 <p class="card-text text-white font-roboto-condenses">Nullam quam massa, fringilla quis tortor eu, aliquet faucibus leo. Proin mollis erat congue, interdum ipsum sed, venenatis ante. Fusce non ultrices urna. Proin imperdiet quam diam, vel hendrerit mauris tempor et. Curabitur ut turpis sit amet mi blandit lobortis. Ut bibendum mauris non vehicula pellentesque. Ut ultricies feugiat neque nec ultricies. Fusce vulputate tortor fringilla fermentum congue.</p>
                 <h5 class="card-title text-white font-roboto-condenses">Learn More</h5>
                 <hr class="divider" />
@@ -75,11 +80,11 @@ export const About = (props) => {
 
             <div class="card2 mt-100 ms-lg-69 me-lg-69">
                 <div class="card-body m">
-                    <h1 class="ms-lg-5 text-white mt-3 pt-lg-3 ">Ready to be Invictus?</h1>
-                    <p class="ms-lg-5 text-white mb-lg-5">Where the Journey Begins and the Rewards Never End
-                    </p>
-                    <a class="button-atas3 ms-lg-1002 mb-lg-100 mt-lg-33" href="https://discord.gg/btQQsH6PTn" target="_blank">JOIN NOW</a>
-
+                    <h1 class="text-white mt-2 pt-lg-3 text-center font-roboto-condenses ">READY TO BE INVICTUS?</h1>
+                    <p class="text-white mb-lg-2 text-center font-roboto-condenses">Where the Journey Begins and the Rewards Never End</p>
+                    <div class="col text-center">
+                    <a class="button-bawah mt-lg-2 mb-lg-3 font-roboto-condenses" href="https://discord.gg/btQQsH6PTn" target="_blank">JOIN NOW</a>
+                    </div>
                 </div>
             </div>
 
