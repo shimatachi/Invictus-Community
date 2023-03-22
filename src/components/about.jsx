@@ -4,9 +4,11 @@ export const About = (props) => {
   return (
     <section class="page-section bg-mlx" id="services">
 
-        <div class="col text-center">
-            <div class="fs-69 text-white font-roboto-condenses">OUR COMMUNITY GROUPS</div>
-        </div>
+            <div class="card3 mt-lg-69-2">
+                <div class="card-body m">
+                    <p class="text-white text-center fs-69 font-roboto-condenses ">OUR COMMUNITY GROUPS</p>
+                </div>
+            </div>
 
         <div class="row row-cols-1 row-cols-md-3 g-5 px-3 mt-lg-69">
         <div class="col">
@@ -83,7 +85,7 @@ export const About = (props) => {
                     <h1 class="text-white mt-2 pt-lg-3 text-center font-roboto-condenses ">READY TO BE INVICTUS?</h1>
                     <p class="text-white mb-lg-2 text-center font-roboto-condenses">Where the Journey Begins and the Rewards Never End</p>
                     <div class="col text-center">
-                    <a class="button-bawah mt-lg-2 mb-lg-3 font-roboto-condenses" href="https://discord.gg/btQQsH6PTn" target="_blank">JOIN NOW</a>
+                    <a class="button-bawah hvr-outline-out mt-lg-2 mb-lg-3 font-roboto-condenses" href="https://discord.gg/btQQsH6PTn" target="_blank">JOIN NOW</a>
                     </div>
                 </div>
             </div>
