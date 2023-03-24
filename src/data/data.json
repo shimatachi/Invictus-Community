@@ -1,0 +1,160 @@
+{
+  "Header": {
+    "heading": "WHERE PASSION MEETS CAMARADERIE",
+    "subheading": "INVICTUS AWAITS"
+  },
+
+  "Introduction": {
+    "heading":"WHERE PASSION MEETS CAMARADERIE",
+    "paragraph": "We're a passionate gaming community, catering to everyone from casual players to seasoned pros. Our goal is to create an inclusive and fun gathering place where you can connect with like-minded people, experience unforgettable moments, and hone your gaming skills.",
+    "paragraph2": "So come join us, let's game on together!"
+  },
+
+  "About": {
+    "img": "../img/misc/card01.png",
+    "heading": "LEGIO - ORDO",
+    "subheading": "Blue Protocol",
+    "content": "Nullam quam massa, fringilla quis tortor eu, aliquet faucibus leo. Proin mollis erat congue, interdum ipsum sed, venenatis ante. Fusce non ultrices urna. Proin imperdiet quam diam, vel hendrerit mauris tempor et. Curabitur ut turpis sit amet mi blandit lobortis. Ut bibendum mauris non vehicula pellentesque. Ut ultricies feugiat neque nec ultricies. Fusce vulputate tortor fringilla fermentum congue.",
+
+    "img2": "../img/misc/card02.png",
+    "heading2": "Jawa Only Survivor",
+    "subheading2": "Project Zomboid",
+    "content2": "Nullam quam massa, fringilla quis tortor eu, aliquet faucibus leo. Proin mollis erat congue, interdum ipsum sed, venenatis ante. Fusce non ultrices urna. Proin imperdiet quam diam, vel hendrerit mauris tempor et. Curabitur ut turpis sit amet mi blandit lobortis. Ut bibendum mauris non vehicula pellentesque. Ut ultricies feugiat neque nec ultricies. Fusce vulputate tortor fringilla fermentum congue.",
+
+    "img3": "../img/misc/card03.png",
+    "heading3": "Task Force - 13 “Invictus”",
+    "subheading3": "War Thunder",
+    "content3": "Nullam quam massa, fringilla quis tortor eu, aliquet faucibus leo. Proin mollis erat congue, interdum ipsum sed, venenatis ante. Fusce non ultrices urna. Proin imperdiet quam diam, vel hendrerit mauris tempor et. Curabitur ut turpis sit amet mi blandit lobortis. Ut bibendum mauris non vehicula pellentesque. Ut ultricies feugiat neque nec ultricies. Fusce vulputate tortor fringilla fermentum congue.",
+
+    "sponsor": "../img/sponsorship/nvidiaw1.png",
+    "sponsor2": "../img/sponsorship/logigw1.png",
+    "sponsor3": "../img/sponsorship/BPIicon1.png",
+    "sponsor4": "../img/sponsorship/kominfo1.png",
+    "sponsor5": "../img/sponsorship/bswb1.png",
+
+    "boxheading": "READY TO BE INVICTUS?",
+    "boxsubheading": "Where the Journey Begins and the Rewards Never End"
+  },
+
+  "Footer": {
+    "img": "../img/inpiktus.png",
+    "heading": "Crafted with passion by the Invictus team"
+  },
+
+  "Services": [
+    {
+      "icon": "fa fa-wordpress",
+      "name": "Lorem ipsum dolor",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-cart-arrow-down",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-cloud-download",
+      "name": "Lorem ipsum dolor",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-language",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-plane",
+      "name": "Lorem ipsum dolor",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-pie-chart",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "John Doe",
+      "job": "Director"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Mike Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Jane Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    }
+  ],
+  "Contact": {
+    "address": "4321 California St, San Francisco, CA 12345 ",
+    "phone": "+1 123 456 1234",
+    "email": "info@company.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+@media screen and (max-width: 400px) {
+  #indtoduction,
+  #about,
+  #header,
+  #services,
+  #footer {
+    width: 100%;
+  }
+}
