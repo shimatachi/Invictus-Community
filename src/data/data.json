@@ -1,70 +1,46 @@
 {
   "Header": {
-    "title": "WHERE PASSION MEETS CAMARADERIE",
-    "title2": "INVICTUS AWAITS"
+    "heading": "WHERE PASSION MEETS CAMARADERIE",
+    "subheading": "INVICTUS AWAITS"
   },
+
+  "Introduction": {
+    "heading":"WHERE PASSION MEETS CAMARADERIE",
+    "paragraph": "We're a passionate gaming community, catering to everyone from casual players to seasoned pros. Our goal is to create an inclusive and fun gathering place where you can connect with like-minded people, experience unforgettable moments, and hone your gaming skills.",
+    "paragraph2": "So come join us, let's game on together!"
+  },
+
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
-    ],
-    "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
-    ]
+    "img": "../img/misc/card01.png",
+    "heading": "LEGIO - ORDO",
+    "subheading": "Blue Protocol",
+    "content": "Nullam quam massa, fringilla quis tortor eu, aliquet faucibus leo. Proin mollis erat congue, interdum ipsum sed, venenatis ante. Fusce non ultrices urna. Proin imperdiet quam diam, vel hendrerit mauris tempor et. Curabitur ut turpis sit amet mi blandit lobortis. Ut bibendum mauris non vehicula pellentesque. Ut ultricies feugiat neque nec ultricies. Fusce vulputate tortor fringilla fermentum congue.",
+
+    "img2": "../img/misc/card02.png",
+    "heading2": "Jawa Only Survivor",
+    "subheading2": "Project Zomboid",
+    "content2": "Nullam quam massa, fringilla quis tortor eu, aliquet faucibus leo. Proin mollis erat congue, interdum ipsum sed, venenatis ante. Fusce non ultrices urna. Proin imperdiet quam diam, vel hendrerit mauris tempor et. Curabitur ut turpis sit amet mi blandit lobortis. Ut bibendum mauris non vehicula pellentesque. Ut ultricies feugiat neque nec ultricies. Fusce vulputate tortor fringilla fermentum congue.",
+
+    "img3": "../img/misc/card03.png",
+    "heading3": "Task Force - 13 “Invictus”",
+    "subheading3": "War Thunder",
+    "content3": "Nullam quam massa, fringilla quis tortor eu, aliquet faucibus leo. Proin mollis erat congue, interdum ipsum sed, venenatis ante. Fusce non ultrices urna. Proin imperdiet quam diam, vel hendrerit mauris tempor et. Curabitur ut turpis sit amet mi blandit lobortis. Ut bibendum mauris non vehicula pellentesque. Ut ultricies feugiat neque nec ultricies. Fusce vulputate tortor fringilla fermentum congue.",
+
+    "sponsor": "../img/sponsorship/nvidiaw1.png",
+    "sponsor2": "../img/sponsorship/logigw1.png",
+    "sponsor3": "../img/sponsorship/BPIicon1.png",
+    "sponsor4": "../img/sponsorship/kominfo1.png",
+    "sponsor5": "../img/sponsorship/bswb1.png",
+
+    "boxheading": "READY TO BE INVICTUS?",
+    "boxsubheading": "Where the Journey Begins and the Rewards Never End"
   },
-  "Gallery": [
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
-    }
-  ],
+
+  "Footer": {
+    "img": "../img/inpiktus.png",
+    "heading": "Crafted with passion by the Invictus team"
+  },
+
   "Services": [
     {
       "icon": "fa fa-wordpress",

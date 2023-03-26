@@ -5,12 +5,12 @@ export const Footer = (props) => {
     <footer class="bg-dark-blue py-5">
       <div class="container px-4 px-lg-5">
         <div class="small text-center text-white mb-4">
-        <img src="../img/inpiktus.png" width="40" height="40"></img>
+        <img src={props.data ? props.data.img : "Loading"} alt="logo-footer" width="40" height="40" />
         </div>
       </div>
       <div class="container px-4 px-lg-5">
         <div class="small text-center text-white mb-1">
-          Crafted with passion by the Invictus team 
+          {props.data ? props.data.heading : "Loading"}
         </div>
       </div>
 

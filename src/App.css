@@ -3,11 +3,7 @@
   #about,
   #header,
   #services,
-  #testimonials,
-  #credit,
-  #contact,
-  #footer,
-  #portfolio {
+  #footer {
     width: 100%;
   }
 }
