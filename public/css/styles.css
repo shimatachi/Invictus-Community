@@ -12245,6 +12245,25 @@ header.masthead .masthead-heading {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+@media (min-width: 280px) and (max-width: 320px){
+  header.masthead {
+    height: 100vh;  
+  }
+  header.masthead .masthead-subheading {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-top: -8rem;
+  }
+  header.masthead .masthead-heading {
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+  }
+}
+
+
+
 @media (min-width: 508px) {
   header.masthead {
     height: 100vh;  
