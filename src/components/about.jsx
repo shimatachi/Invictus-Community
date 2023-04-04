@@ -16,9 +16,9 @@ export const About = (props) => {
             <img src={props.data ? props.data.img : "Loading"} alt="..."/>
             <div class="card-body bg-dark-blue">
                 <h1 class="card-title text-white font-roboto-condenses">{props.data ? props.data.heading : "Loading"}</h1>
-                <h5 class="card-title text-white font-roboto-condenses mb-4">{props.data ? props.data.subheading : "Loading"}</h5>
+                <h5 class="card-subtitle text-white font-roboto-condenses mb-4">{props.data ? props.data.subheading : "Loading"}</h5>
                 <p class="card-text text-white font-roboto-condenses">{props.data ? props.data.content : "Loading"}</p>
-                <h5 class="card-title text-white font-roboto-condenses">Learn More</h5>
+                <h5 class="card-subtitle text-white font-roboto-condenses">Learn More</h5>
                 <hr class="divider" />
             </div>
             </div>
@@ -28,9 +28,9 @@ export const About = (props) => {
             <img src={props.data ? props.data.img2 : "Loading"} alt="..."/>
             <div class="card-body bg-dark-blue">
             <h1 class="card-title text-white font-roboto-condenses">{props.data ? props.data.heading2 : "Loading"}</h1>
-                <h5 class="card-title text-white font-roboto-condenses mb-4">{props.data ? props.data.subheading2 : "Loading"}</h5>
+                <h5 class="card-subtitle text-white font-roboto-condenses mb-4">{props.data ? props.data.subheading2 : "Loading"}</h5>
                 <p class="card-text text-white font-roboto-condenses">{props.data ? props.data.content2 : "Loading"}</p>
-                <h5 class="card-title text-white font-roboto-condenses">Learn More</h5>
+                <h5 class="card-subtitle text-white font-roboto-condenses">Learn More</h5>
                 <hr class="divider" />
             </div>
             </div>
@@ -40,9 +40,9 @@ export const About = (props) => {
             <img src={props.data ? props.data.img3 : "Loading"} alt="..."/>
             <div class="card-body bg-dark-blue">
             <h1 class="card-title text-white font-roboto-condenses">{props.data ? props.data.heading3 : "Loading"}</h1>
-                <h5 class="card-title text-white font-roboto-condenses mb-4">{props.data ? props.data.subheading3 : "Loading"}</h5>
+                <h5 class="card-subtitle text-white font-roboto-condenses mb-4">{props.data ? props.data.subheading3 : "Loading"}</h5>
                 <p class="card-text text-white font-roboto-condenses">{props.data ? props.data.content3 : "Loading"}</p>
-                <h5 class="card-title text-white font-roboto-condenses">Learn More</h5>
+                <h5 class="card-subtitle text-white font-roboto-condenses">Learn More</h5>
                 <hr class="divider" />
             </div>
             </div>
