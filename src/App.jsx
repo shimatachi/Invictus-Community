@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { Navigation } from "./components/navigation";
-import { Header } from "./components/header";
-import { Introduction } from "./components/introduction";
-import { About } from "./components/about";
-import { Services } from "./components/services";
-import { Footer } from "./components/footer";
+import ReactDOM from "react-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./components/layout";
+import Home from "./pages/home";
+import Community from "./pages/community";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
@@ -22,14 +21,17 @@ const App = () => {
 
   return (
     <div>
-      <Navigation />
-      <Header data={landingPageData.Header} />
-      <Introduction data={landingPageData.Introduction} />
-      <About data={landingPageData.About} />
-      <Services data={landingPageData.Services} />
-      <Footer data={landingPageData.Footer} />
-    </div>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home data={landingPageData.Home} />} />
+        <Route path="/community" element={<Community />} />
+      </Route>
+    </Routes>
+  </BrowserRouter>
+  </div>
   );
 };
 
+ReactDOM.render(<App />, document.getElementById("root"));
 export default App;

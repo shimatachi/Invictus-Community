@@ -32,3 +32,5 @@ export const Services = (props) => {
     </section>
   );
 };
+
+export default Services;

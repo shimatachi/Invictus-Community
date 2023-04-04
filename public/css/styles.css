@@ -12884,6 +12884,35 @@ header.masthead .masthead-heading {
   }
 }
 
+header.masthead2 {
+  position: relative;
+  width: 100%;
+  height: 10px;
+  padding: 12rem 0;
+  padding-right: 0rem;
+  padding-left: 3rem;
+  text-align: left;
+  color: #fff;
+  background:  url("../img/header/Header-Community.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+header.masthead2 .masthead-subheading2 {
+  font-size: 2.75rem;
+  font-weight: 700;
+  line-height: 2.9rem;
+  margin-bottom: 25px;
+  text-align: left;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+header.masthead2 .masthead-heading2 {
+  font-size: 1.75rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-align: left;
+  font-family: 'Roboto Condensed', sans-serif;
+}
 
 #portfolio .portfolio-item {
   max-width: 26rem;

@@ -8,8 +8,8 @@ export const Navigation = (props) => {
         <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ms-lg-3">
-                <li class="nav-item"><a class="nav-link" href="#mainNav">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#Introduction">Community</a></li>
+                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="/community">Community</a></li>
                 <li class="nav-item"><a class="nav-link" href="#portfolio">Guides</a></li>
                 <li class="nav-item ms-lg-1001"><a class="nav-link text-crimson" href="https://discord.gg/btQQsH6PTn" target="_blank"  rel="noopener noreferrer">Join Now</a></li>
             </ul>
@@ -18,3 +18,5 @@ export const Navigation = (props) => {
 </nav>
   );
 };
+
+export default Navigation;
