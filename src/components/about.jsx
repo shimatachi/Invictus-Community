@@ -6,7 +6,7 @@ export const About = (props) => {
 
             <div class="card3 mt-lg-69-2">
                 <div class="card-body m">
-                    <p class="text-white text-center fs-69 font-roboto-condenses ">OUR COMMUNITY GROUPS</p>
+                    <p class="text-white text-center fs-69 font-roboto-condenses ">{props.data ? props.data.topheading : "Loading"}</p>
                 </div>
             </div>
 
