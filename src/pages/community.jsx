@@ -7,60 +7,42 @@ export const Community = (props) => {
 
         <div className="col-lg-10 container">
             <div className="masthead-subheading2">
-            {props.data ? props.data.heading : "Loading"}
+            Our Community
             </div>
             <div className="masthead-heading2 text-uppercase">
-            {props.data ? props.data.subheading : "Loading"}
+            Bound by passion, united in gameplay.
             </div>
         </div>
     </header>
 
     {/* <!--About--> */}
 
-    <section class="page-section bg-mlx" id="services">
+    <section class="page-section bg-wlx" id="services">
 
-        <div class="row row-cols-1 row-cols-md-3 g-5 px-3 mt-lg-69">
-        <div class="col">
-            <div class="card h-100 bg-dark-blue">
-            <img src={props.data ? props.data.img : "Loading"} alt="..."/>
-            <div class="card-body bg-dark-blue">
-                <h1 class="card-title text-white font-roboto-condenses">{props.data ? props.data.heading3 : "Loading"}</h1>
-                <h5 class="card-subtitle text-white font-roboto-condenses mb-4">{props.data ? props.data.subheading3 : "Loading"}</h5>
-                <p class="card-text text-white font-roboto-condenses">{props.data ? props.data.content : "Loading"}</p>
-                <h5 class="card-subtitle text-white font-roboto-condenses">Learn More</h5>
-                <hr class="divider" />
-            </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card h-100 bg-dark-blue">
-            <img src={props.data ? props.data.img2 : "Loading"} alt="..."/>
-            <div class="card-body bg-dark-blue">
-            <h1 class="card-title text-white font-roboto-condenses">{props.data ? props.data.heading4 : "Loading"}</h1>
-                <h5 class="card-subtitle text-white font-roboto-condenses mb-4">{props.data ? props.data.subheading4 : "Loading"}</h5>
-                <p class="card-text text-white font-roboto-condenses">{props.data ? props.data.content2 : "Loading"}</p>
-                <h5 class="card-subtitle text-white font-roboto-condenses">Learn More</h5>
-                <hr class="divider" />
-            </div>
+        <div class="card4 ms-lg-5 me-lg-5">
+            <div class="card5 px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-xl-6 col-md-6 text-left">
+                    <div class="mt-5">
+                    <h2 class="introduction-header mt-0 font-roboto-condenses">Legio - Ordo</h2>
+                    <p class="introduction-subheader2 mb-2 font-roboto-condenses">Blue Protocol</p>
+                    <p class="introduction-subheader2 mb-4 font-roboto-condenses">Legio - Ordo is built upon the principles of order, discipline, and unity, and we are dedicated to tackling the challenges of Blue Protocol as a team. As members of Legio - Ordo, we take on raids, dungeons, and quests together, using our combined skills and strategies to conquer whatever obstacles come our way. Whether you are an experienced player or new to the game, Legio - Ordo provides a welcoming and supportive community that encourages growth and development. With our commitment to excellence and teamwork, we are poised to become one of the strongest and most respected guilds in all of Blue Protocol.</p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-6 text-center">
+                    <div class="mt-5">
+                    <div class="mb-2"><img src="../img/misc/image5.png" alt="..." width="500" height="240" class="img-fluid rounded mx-auto d-block"/></div>
+                    <a href="#asdsa" class="btn btn-primary">Sample</a>
+                    </div>
+                </div>
+                </div>
             </div>
         </div>
-        <div class="col">
-            <div class="card h-100 bg-dark-blue">
-            <img src={props.data ? props.data.img3 : "Loading"} alt="..."/>
-            <div class="card-body bg-dark-blue">
-            <h1 class="card-title text-white font-roboto-condenses">{props.data ? props.data.heading5 : "Loading"}</h1>
-                <h5 class="card-subtitle text-white font-roboto-condenses mb-4">{props.data ? props.data.subheading5 : "Loading"}</h5>
-                <p class="card-text text-white font-roboto-condenses">{props.data ? props.data.content3 : "Loading"}</p>
-                <h5 class="card-subtitle text-white font-roboto-condenses">Learn More</h5>
-                <hr class="divider" />
-            </div>
-            </div>
-        </div>
-        </div>
+
 
         {/* Box */}
 
-            <div class="card2 mt-100 ms-lg-69 me-lg-69 ">
+            <div class="card2 mt-100 ms-lg-69 me-lg-69">
                 <div class="card-body m">
                     <h1 class="text-white mt-2 pt-lg-3 text-center font-roboto-condenses ">{props.data ? props.data.boxheading : "Loading"}</h1>
                     <p class="text-white mb-lg-2 text-center font-roboto-condenses">{props.data ? props.data.boxsubheading : "Loading"}</p>
