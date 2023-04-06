@@ -24,7 +24,47 @@ export const Community = (props) => {
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-xl-6 col-md-6 text-left">
                     <div class="mt-5">
-                    <h2 class="introduction-header mt-0 font-roboto-condenses">Legio - Ordo</h2>
+                    <h2 class="introduction-header2 mt-0 font-roboto-condenses">Legio - Ordo</h2>
+                    <p class="introduction-subheader2 mb-2 font-roboto-condenses">Blue Protocol</p>
+                    <p class="introduction-subheader2 mb-4 font-roboto-condenses">Legio - Ordo is built upon the principles of order, discipline, and unity, and we are dedicated to tackling the challenges of Blue Protocol as a team. As members of Legio - Ordo, we take on raids, dungeons, and quests together, using our combined skills and strategies to conquer whatever obstacles come our way. Whether you are an experienced player or new to the game, Legio - Ordo provides a welcoming and supportive community that encourages growth and development. With our commitment to excellence and teamwork, we are poised to become one of the strongest and most respected guilds in all of Blue Protocol.</p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-6 text-center">
+                    <div class="mt-5">
+                    <div class="mb-2"><img src="../img/misc/image5.png" alt="..." width="500" height="240" class="img-fluid rounded mx-auto d-block"/></div>
+                    <a href="#asdsa" class="btn btn-primary">Sample</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card4 ms-lg-5 me-lg-5 mt-lg-5">
+            <div class="card5 px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-xl-6 col-md-6 text-left">
+                    <div class="mt-5">
+                    <h2 class="introduction-header2 mt-0 font-roboto-condenses">Legio - Ordo</h2>
+                    <p class="introduction-subheader2 mb-2 font-roboto-condenses">Blue Protocol</p>
+                    <p class="introduction-subheader2 mb-4 font-roboto-condenses">Legio - Ordo is built upon the principles of order, discipline, and unity, and we are dedicated to tackling the challenges of Blue Protocol as a team. As members of Legio - Ordo, we take on raids, dungeons, and quests together, using our combined skills and strategies to conquer whatever obstacles come our way. Whether you are an experienced player or new to the game, Legio - Ordo provides a welcoming and supportive community that encourages growth and development. With our commitment to excellence and teamwork, we are poised to become one of the strongest and most respected guilds in all of Blue Protocol.</p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-6 text-center">
+                    <div class="mt-5">
+                    <div class="mb-2"><img src="../img/misc/image5.png" alt="..." width="500" height="240" class="img-fluid rounded mx-auto d-block"/></div>
+                    <a href="#asdsa" class="btn btn-primary">Sample</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card4 ms-lg-5 me-lg-5 mt-lg-5">
+            <div class="card5 px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-xl-6 col-md-6 text-left">
+                    <div class="mt-5">
+                    <h2 class="introduction-header2 mt-0 font-roboto-condenses">Legio - Ordo</h2>
                     <p class="introduction-subheader2 mb-2 font-roboto-condenses">Blue Protocol</p>
                     <p class="introduction-subheader2 mb-4 font-roboto-condenses">Legio - Ordo is built upon the principles of order, discipline, and unity, and we are dedicated to tackling the challenges of Blue Protocol as a team. As members of Legio - Ordo, we take on raids, dungeons, and quests together, using our combined skills and strategies to conquer whatever obstacles come our way. Whether you are an experienced player or new to the game, Legio - Ordo provides a welcoming and supportive community that encourages growth and development. With our commitment to excellence and teamwork, we are poised to become one of the strongest and most respected guilds in all of Blue Protocol.</p>
                     </div>

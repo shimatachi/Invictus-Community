@@ -4982,6 +4982,96 @@ textarea.form-control-lg {
 	top:1px;
 }
 
+@media (min-width: 1400px) {
+  .button-bawah {
+    background-color:#F0F0F0;
+    display:inline-block;
+    cursor:pointer;
+    color: #dc143c;
+    font-family:Arial;
+    font-weight: 700;
+    font-size:15px;
+    padding:12px 35px;
+    text-decoration:none;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+}
+
+@media (min-width: 1600px) {
+  .button-bawah {
+    background-color:#F0F0F0;
+    display:inline-block;
+    cursor:pointer;
+    color: #dc143c;
+    font-family:Arial;
+    font-weight: 700;
+    font-size:17px;
+    padding:15px 35px;
+    text-decoration:none;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+}
+
+@media (min-width: 1800px) {
+  .button-bawah {
+    background-color:#F0F0F0;
+    display:inline-block;
+    cursor:pointer;
+    color: #dc143c;
+    font-family:Arial;
+    font-weight: 700;
+    font-size:17px;
+    padding:17px 40px;
+    text-decoration:none;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+}
+
+@media (min-width: 2000px) {
+  .button-bawah {
+    background-color:#F0F0F0;
+    display:inline-block;
+    cursor:pointer;
+    color: #dc143c;
+    font-family:Arial;
+    font-weight: 700;
+    font-size:22px;
+    padding:20px 45px;
+    text-decoration:none;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+}
+
+@media (min-width: 2200px) {
+  .button-bawah {
+    background-color:#F0F0F0;
+    display:inline-block;
+    cursor:pointer;
+    color: #dc143c;
+    font-family:Arial;
+    font-weight: 700;
+    font-size:25px;
+    padding:25px 50px;
+    text-decoration:none;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+}
+
+@media (min-width: 3600px) {
+  .button-bawah {
+    background-color:#F0F0F0;
+    display:inline-block;
+    cursor:pointer;
+    color: #dc143c;
+    font-family:Arial;
+    font-weight: 700;
+    font-size:30px;
+    padding:30px 60px;
+    text-decoration:none;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+}
+
 /* Outline Out */
 .hvr-outline-out {
   display: inline-block;
@@ -5776,6 +5866,62 @@ textarea.form-control-lg {
     border-bottom-left-radius: 0;
   }
 }
+
+@media (min-width: 1400px){
+  .card-title2{
+    font-size: 2.7rem;
+  }
+  .card-subtitle2{
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1600px){
+  .card-title2{
+    font-size: 3rem;
+  }
+  .card-subtitle2{
+    font-size: 1.7rem;
+  }
+}
+
+@media (min-width: 1800px){
+  .card-title2{
+    font-size: 3.3rem;
+  }
+  .card-subtitle2{
+    font-size: 1.9rem;
+  }
+}
+
+@media (min-width: 2000px){
+  .card-title2{
+    font-size: 3.6rem;
+  }
+  .card-subtitle2{
+    font-size: 2.1rem;
+  }
+}
+
+@media (min-width: 2200px){
+  .card-title2{
+    font-size: 4.3rem;
+  }
+  .card-subtitle2{
+    font-size: 2.6rem;
+  }
+}
+
+@media (min-width: 3200px){
+  .card-title2{
+    font-size: 5.3rem;
+  }
+  .card-subtitle2{
+    font-size: 3.6rem;
+  }
+}
+
+
 
 
 .card {
@@ -12983,6 +13129,56 @@ p {
   
 }
 
+@media (min-width: 280px) and (max-width: 320px){
+  .introduction-header2{
+    font-size: 1.3rem;
+  }
+  
+}
+
+@media (min-width: 1400px){
+  .introduction-header2{
+    font-size: 2.3rem;
+  }
+  
+}
+
+@media (min-width: 1600px){
+  .introduction-header2{
+    font-size: 2.7rem;
+  }
+  
+}
+
+@media (min-width: 1800px){
+  .introduction-header2{
+    font-size: 2.9rem;
+  }
+  
+}
+
+@media (min-width: 2000px){
+  .introduction-header2{
+    font-size: 3.3rem;
+  }
+  
+}
+
+@media (min-width: 2200px){
+  .introduction-header2{
+    font-size: 4.3rem;
+  }
+  
+}
+
+
+@media (min-width: 3600px){
+  .introduction-header2{
+    font-size: 4.3rem;
+  }
+  
+}
+
 .introduction-subheader2{
   font-size: 0.8rem;
 }
@@ -13029,6 +13225,69 @@ p {
 @media (min-width: 2200px){
   .introduction-subheader{
     font-size: 2.1rem;
+  }
+  
+}
+
+@media (min-width: 280px) and (max-width: 320px){
+  .introduction-subheader2{
+    font-size: 0.6rem;
+  }
+  
+}
+
+@media (min-width: 900px){
+  .introduction-subheader2{
+    font-size: 0.6  rem;
+  }
+  
+}
+
+@media (min-width: 1200px){
+  .introduction-subheader2{
+    font-size: 0.825rem;
+  }
+  
+}
+
+@media (min-width: 1400px){
+  .introduction-subheader2{
+    font-size: 0.95rem;
+  }
+  
+}
+
+@media (min-width: 1600px){
+  .introduction-subheader2{
+    font-size: 1.1rem;
+  }
+  
+}
+
+@media (min-width: 1800px){
+  .introduction-subheader2{
+    font-size: 1.2rem;
+  }
+  
+}
+
+@media (min-width: 2000px){
+  .introduction-subheader2{
+    font-size: 1.3rem;
+  }
+  
+}
+
+@media (min-width: 2200px){
+  .introduction-subheader2{
+    font-size: 1.85rem;
+  }
+  
+}
+
+@media (min-width: 2200px){
+  .introduction-subheader2{
+    font-size: 2.9rem;
   }
   
 }
