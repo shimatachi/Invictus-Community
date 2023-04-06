@@ -3,8 +3,27 @@ import React from "react";
 export const Community = (props) => {
   return (
     <>
-    <header className="masthead2" id="masthead2">
 
+        {/* <!--Navbar--> */}
+
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+        <div class="container px-lg-5">
+            <a class="navbar-brand" href="#page-top"><img src="../img/favicon.ico" alt="favicon" width="auto" height="auto"></img></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-lg-3">
+                    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item active"><a class="nav-link text-crimson" href="/community">Community</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Guides</a></li>
+                    <li class="nav-item ms-lg-1001"><a class="nav-link text-crimson" href="https://discord.gg/btQQsH6PTn" target="_blank"  rel="noopener noreferrer">Join Now</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    {/* <!--Header--> */}
+
+    <header className="masthead2" id="masthead2">
         <div className="col-lg-10 container">
             <div className="masthead-subheading2">
             Our Community
@@ -22,19 +41,39 @@ export const Community = (props) => {
         <div class="card4 ms-lg-5 me-lg-5">
             <div class="card5 px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-xl-6 col-md-6 text-left">
-                    <div class="mt-5">
-                    <h2 class="introduction-header2 mt-0 font-roboto-condenses">Legio - Ordo</h2>
-                    <p class="introduction-subheader2 mb-2 font-roboto-condenses">Blue Protocol</p>
-                    <p class="introduction-subheader2 mb-4 font-roboto-condenses">Legio - Ordo is built upon the principles of order, discipline, and unity, and we are dedicated to tackling the challenges of Blue Protocol as a team. As members of Legio - Ordo, we take on raids, dungeons, and quests together, using our combined skills and strategies to conquer whatever obstacles come our way. Whether you are an experienced player or new to the game, Legio - Ordo provides a welcoming and supportive community that encourages growth and development. With our commitment to excellence and teamwork, we are poised to become one of the strongest and most respected guilds in all of Blue Protocol.</p>
+                    <div class="col-xl-6 col-md-6 text-left">
+                        <div class="mt-5">
+                        <h2 class="introduction-header2 mt-0 font-roboto-condenses">{props.data ? props.data.title : "Loading"}</h2>
+                        <p class="introduction-subheader2 mb-2 font-roboto-condenses">{props.data ? props.data.subtitle : "Loading"}</p>
+                        <p class="introduction-subheader2 mb-4 font-roboto-condenses">{props.data ? props.data.text : "Loading"}</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-md-6 text-center">
+                        <div class="mt-5">
+                        <div class="mb-2"><img src={props.data ? props.data.image : "Loading"} alt="..." width="auto" height="auto" class="img-fluid rounded mx-auto d-block"/></div>
+                        <a href="#asdsa" class="button-community hvr-outline-out2">Learn More</a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-xl-6 col-md-6 text-center">
-                    <div class="mt-5">
-                    <div class="mb-2"><img src="../img/misc/image5.png" alt="..." width="500" height="240" class="img-fluid rounded mx-auto d-block"/></div>
-                    <a href="#asdsa" class="btn btn-primary">Sample</a>
+            </div>
+        </div>
+
+        <div class="card6 ms-lg-5 me-lg-5 mt-lg-5">
+            <div class="px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-xl-6 col-md-6 text-center">
+                        <div class="mt-5">
+                        <div class="mb-2"><img src={props.data ? props.data.image2 : "Loading"} alt="..." width="auto" height="auto" class="img-fluid rounded mx-auto d-block"/></div>
+                        <a href="/tf-13-invictus" class="button-community hvr-outline-out2">Learn More</a>
+                        </div>
                     </div>
-                </div>
+                    <div class="col-xl-6 col-md-6 text-left">
+                        <div class="mt-5">
+                        <h2 class="introduction-header2 mt-0 font-roboto-condenses">{props.data ? props.data.title2 : "Loading"}</h2>
+                        <p class="introduction-subheader2 mb-2 font-roboto-condenses">{props.data ? props.data.subtitle2 : "Loading"}</p>
+                        <p class="introduction-subheader2 mb-4 font-roboto-condenses">{props.data ? props.data.text2 : "Loading"}</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -42,39 +81,19 @@ export const Community = (props) => {
         <div class="card4 ms-lg-5 me-lg-5 mt-lg-5">
             <div class="card5 px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-xl-6 col-md-6 text-left">
-                    <div class="mt-5">
-                    <h2 class="introduction-header2 mt-0 font-roboto-condenses">Legio - Ordo</h2>
-                    <p class="introduction-subheader2 mb-2 font-roboto-condenses">Blue Protocol</p>
-                    <p class="introduction-subheader2 mb-4 font-roboto-condenses">Legio - Ordo is built upon the principles of order, discipline, and unity, and we are dedicated to tackling the challenges of Blue Protocol as a team. As members of Legio - Ordo, we take on raids, dungeons, and quests together, using our combined skills and strategies to conquer whatever obstacles come our way. Whether you are an experienced player or new to the game, Legio - Ordo provides a welcoming and supportive community that encourages growth and development. With our commitment to excellence and teamwork, we are poised to become one of the strongest and most respected guilds in all of Blue Protocol.</p>
+                    <div class="col-xl-6 col-md-6 text-left">
+                        <div class="mt-5">
+                        <h2 class="introduction-header2 mt-0 font-roboto-condenses">{props.data ? props.data.title3 : "Loading"}</h2>
+                        <p class="introduction-subheader2 mb-2 font-roboto-condenses">{props.data ? props.data.subtitle3 : "Loading"}</p>
+                        <p class="introduction-subheader2 mb-4 font-roboto-condenses">{props.data ? props.data.text3 : "Loading"}</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-xl-6 col-md-6 text-center">
-                    <div class="mt-5">
-                    <div class="mb-2"><img src="../img/misc/image5.png" alt="..." width="500" height="240" class="img-fluid rounded mx-auto d-block"/></div>
-                    <a href="#asdsa" class="btn btn-primary">Sample</a>
+                    <div class="col-xl-6 col-md-6 text-center">
+                        <div class="mt-5">
+                        <div class="mb-2"><img src={props.data ? props.data.image3 : "Loading"} alt="..." width="auto" height="auto" class="img-fluid rounded mx-auto d-block"/></div>
+                        <a href="#asdsa" class="button-community hvr-outline-out2">Learn More</a>
+                        </div>
                     </div>
-                </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="card4 ms-lg-5 me-lg-5 mt-lg-5">
-            <div class="card5 px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-xl-6 col-md-6 text-left">
-                    <div class="mt-5">
-                    <h2 class="introduction-header2 mt-0 font-roboto-condenses">Legio - Ordo</h2>
-                    <p class="introduction-subheader2 mb-2 font-roboto-condenses">Blue Protocol</p>
-                    <p class="introduction-subheader2 mb-4 font-roboto-condenses">Legio - Ordo is built upon the principles of order, discipline, and unity, and we are dedicated to tackling the challenges of Blue Protocol as a team. As members of Legio - Ordo, we take on raids, dungeons, and quests together, using our combined skills and strategies to conquer whatever obstacles come our way. Whether you are an experienced player or new to the game, Legio - Ordo provides a welcoming and supportive community that encourages growth and development. With our commitment to excellence and teamwork, we are poised to become one of the strongest and most respected guilds in all of Blue Protocol.</p>
-                    </div>
-                </div>
-                <div class="col-xl-6 col-md-6 text-center">
-                    <div class="mt-5">
-                    <div class="mb-2"><img src="../img/misc/image5.png" alt="..." width="500" height="240" class="img-fluid rounded mx-auto d-block"/></div>
-                    <a href="#asdsa" class="btn btn-primary">Sample</a>
-                    </div>
-                </div>
                 </div>
             </div>
         </div>

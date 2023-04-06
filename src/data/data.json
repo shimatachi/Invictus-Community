@@ -10,6 +10,7 @@
 
     "_comment2": "INTRODUCTION",
 
+    "image":"../img/favicon.png",
     "heading2":"WHERE PASSION MEETS CAMARADERIE",
     "paragraph": "We're a passionate gaming community, catering to everyone from casual players to seasoned pros. Our goal is to create an inclusive and fun gathering place where you can connect with like-minded people, experience unforgettable moments, and hone your gaming skills.",
     "paragraph2": "So come join us, let's game on together!",
@@ -42,6 +43,41 @@
     "boxheading": "READY TO BE INVICTUS?",
     "boxsubheading": "Where the Journey Begins and the Rewards Never End"
 
+  },
+  
+  "Community": {
+
+    "title": "Legio - Ordo",
+    "subtitle": "Blue Protocol",
+    "text": "Legio - Ordo is built upon the principles of order, discipline, and unity, and we are dedicated to tackling the challenges of Blue Protocol as a team. As members of Legio - Ordo, we take on raids, dungeons, and quests together, using our combined skills and strategies to conquer whatever obstacles come our way. Whether you are an experienced player or new to the game, Legio - Ordo provides a welcoming and supportive community that encourages growth and development. With our commitment to excellence and teamwork, we are poised to become one of the strongest and most respected guilds in all of Blue Protocol.",
+    "image": "../img/misc/communitybp.png",
+
+    "image2": "../img/misc/communitytf13.png",
+    "title2": "Task Force - 13 “Invictus”",
+    "subtitle2": "War Thunder",
+    "text2": "Task Force-13 Invictus is a squadron that has earned a well-deserved reputation for excellence in the game. As the first Indonesian squadron to reach the Top 50 global leaderboard in Season III 2020, and the first Indonesian squadron to reach the Top 20 in Season I 2021, Task Force-13 Invictus has proven its mettle as a force to be reckoned with. With a rich history of accomplishments and a roster of highly skilled pilots, Task Force-13 Invictus is the pinnacle of competitive play in War Thunder. Join us to be part of a community that strives for excellence and camaraderie in the skies.",
+
+    "title3": "Jawa Only Survivor",
+    "subtitle3": "Project Zomboid",
+    "text3": "Jawa Only Survivor is founded upon the belief that survival is not just about luck, but rather, it is about the ability to adapt and overcome the challenges that the apocalypse presents. As members of Jawa Only Survivor, we have developed a range of skills, from foraging for supplies to building fortifications to fighting off hordes of zombies. We work together to secure our safety, building a community that can withstand the harshest of conditions. In the face of disaster, we stand strong and united, determined to see our way through the darkest of days.",
+    "image3": "../img/misc/communitypz.png",
+
+    "boxheading": "READY TO BE INVICTUS?",
+    "boxsubheading": "Where the Journey Begins and the Rewards Never End"
+  },
+
+  "TF13": {
+
+    "title": "Task Force - 13 “Invictus”",
+    "subtitle": "War Thuder",
+    "text": "Welcome to Invictus: Community's Task Force-13 Invictus subgroup, a dedicated community of War Thunder enthusiasts and skilled pilots. Task Force-13 Invictus is a squadron that has earned a well-deserved reputation for excellence in the game. As the first Indonesian squadron to reach the Top 50 global leaderboard in Season III 2020, and the first Indonesian squadron to reach the Top 20 in Season I 2021, Invictus has proven its mettle as a force to be reckoned with. With a rich history of accomplishments and a roster of highly skilled pilots, Invictus is the pinnacle of competitive play in War Thunder. Join us to be part of a community that strives for excellence and camaraderie in the skies.",
+    "image": "../img/misc/communitytf13.png",
+
+    "image2": "../img/misc/piala.png",
+    "text2": "Task Force - 13 Invictus was the first Indonesian squadron to achieve a top 50 global leaderboard ranking in season III 2020 of War Thunder. Building on this achievement, the squadron continued to improve their skills, strategies, and coordination, eventually reaching a top 20 global leaderboard ranking in season I 2021, another first for an Indonesian squadron. Invictus's success can be attributed to several key factors, including their exceptional skill, communication, teamwork, and dedication. The squadron worked together to develop effective tactics, utilizing each member's strengths to create a cohesive and effective fighting force. They also placed a strong emphasis on clear communication, utilizing tactical overlays to stay informed of the battlefield situation. Through extensive practice and analysis, Invictus honed their abilities and developed effective countermeasures to common enemy strategies. Their perseverance and hard work paid off, as they established themselves as a top squadron in the War Thunder community, setting the standard for other Indonesian squadrons to follow.",
+    
+    "boxheading": "READY TO BE INVICTUS?",
+    "boxsubheading": "Where the Journey Begins and the Rewards Never End"
   }
 }
 

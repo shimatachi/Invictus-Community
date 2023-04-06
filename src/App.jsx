@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/layout";
 import Home from "./pages/home";
 import Community from "./pages/community";
+import TF13 from "./pages/tf13";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
@@ -25,13 +26,16 @@ const App = () => {
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Home data={landingPageData.Home} />} />
-        <Route path="/community" element={<Community />} />
+        <Route path="/community" element={<Community data={landingPageData.Community} />} />
+        <Route path="/tf-13-invictus" element={<TF13 data={landingPageData.TF13} />} />
+
       </Route>
     </Routes>
   </BrowserRouter>
   </div>
   );
 };
+
 
 ReactDOM.render(<App />, document.getElementById("root"));
 export default App;

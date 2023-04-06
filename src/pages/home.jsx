@@ -3,6 +3,26 @@ import React from "react";
 export const Home = (props) => {
   return (
     <>
+
+    {/* <!--Navbar--> */}
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+        <div class="container px-lg-5">
+            <a class="navbar-brand" href="#page-top"><img src="../img/favicon.ico" alt="favicon" width="auto" height="auto"></img></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-lg-3">
+                    <li class="nav-item active"><a class="nav-link text-crimson" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/community">Community</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Guides</a></li>
+                    <li class="nav-item ms-lg-1001"><a class="nav-link text-crimson" href="https://discord.gg/btQQsH6PTn" target="_blank"  rel="noopener noreferrer">Join Now</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    {/* <!--Header--> */}
+
     <header className="masthead" id="masthead">
 
         <div className="col-lg-10 container">
@@ -22,19 +42,19 @@ export const Home = (props) => {
         <section class="page-section bg-glx" id="introduction">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-xl-6 col-md-6 text-center">
-                    <div class="mt-5">
-                    <div class="mb-2"><img src="../img/favicon.png" alt="..." width="auto" height="auto" class="img-fluid rounded mx-auto d-block"/></div>
+                    <div class="col-xl-6 col-md-6 text-center">
+                        <div class="mt-5">
+                        <div class="mb-2"><img src={props.data ? props.data.image : "Loading"} alt="..." width="auto" height="auto" class="img-fluid rounded mx-auto d-block"/></div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-xl-6 col-md-6 text-left">
-                    <div class="mt-5">
-                    <h2 class="introduction-header text-white mt-0 font-roboto-condenses">{props.data ? props.data.heading2 : "Loading"}</h2>
-                    <hr class="divider divider-light" />
-                    <p class="introduction-subheader text-white mb-4 font-roboto-condenses">{props.data ? props.data.paragraph : "Loading"}</p>
-                    <p class="introduction-subheader text-white mb-4 font-roboto-condenses">{props.data ? props.data.paragraph2 : "Loading"}</p>
+                    <div class="col-xl-6 col-md-6 text-left">
+                        <div class="mt-5">
+                        <h2 class="introduction-header text-white mt-0 font-roboto-condenses">{props.data ? props.data.heading2 : "Loading"}</h2>
+                        <hr class="divider divider-light" />
+                        <p class="introduction-subheader text-white mb-4 font-roboto-condenses">{props.data ? props.data.paragraph : "Loading"}</p>
+                        <p class="introduction-subheader text-white mb-4 font-roboto-condenses">{props.data ? props.data.paragraph2 : "Loading"}</p>
+                        </div>
                     </div>
-                </div>
                 </div>
             </div>
         </section>
