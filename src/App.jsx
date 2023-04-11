@@ -24,11 +24,10 @@ const App = () => {
     <div>
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Layout />}>
-        <Route index element={<Home data={landingPageData.Home} />} />
-        <Route path="/community" element={<Community data={landingPageData.Community} />} />
         <Route path="/tf-13-invictus" element={<TF13 data={landingPageData.TF13} />} />
-
+        <Route path="/community" element={<Community data={landingPageData.Community} />} />
+        <Route index element={<Home data={landingPageData.Home} />} />
+        <Route path="/" element={<Layout />}>
       </Route>
     </Routes>
   </BrowserRouter>

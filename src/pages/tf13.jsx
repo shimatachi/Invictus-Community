@@ -36,37 +36,60 @@ export const TF13 = (props) => {
 
     {/* <!--About--> */}
 
-    <section class="page-section bg-wlx" id="services">
+    <section class="page-section bg-wlx px-5" id="services">
 
-        <div class="card7 ms-lg-5 me-lg-5">
-            <div class="card8 px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-xl-4 col-md-6 text-center">
+        <div class="card7 ms-lg-5 me-lg-5 mb-lg-6">
+            <div class="card8 px-4 px-lg-5 mb-lg-6">
+                <div class="row row-cols-1 row-cols-md-3 gx-4 gx-lg-5 justify-content-center mb-lg-6">
+                    <div class="col-xl-6 col-md-6 text-center">
                         <div class="mt-5">
-                        <div class="mb-2"><img src={props.data ? props.data.image : "Loading"} alt="..." width="auto" height="auto" class="img-fluid rounded mx-auto d-block"/></div>
+                        <div class="mb-2"><img src={props.data ? props.data.image : "Loading"} alt="..." width="auto" height="auto" class="img-fluid2 rounded mx-auto d-block"/></div>
                         </div>
                     </div>
-                    <div class="col-xl-8 col-md-6 text-left">
+                    <div class="col-xl-6 col-md-6 text-left">
                         <div class="mt-5">
                         <h2 class="introduction-header2 mt-0 font-roboto-condenses">{props.data ? props.data.title : "Loading"}</h2>
                         <p class="introduction-subheader2 mb-2 font-roboto-condenses">{props.data ? props.data.subtitle : "Loading"}</p>
                         <p class="introduction-subheader2 mb-4 font-roboto-condenses">{props.data ? props.data.text : "Loading"}</p>
-                        <a href="#asdsa" class="button-community hvr-outline-out2 ms-lg-100 mb-lg-5">Learn More</a>
+                        <a href="https://discord.gg/btQQsH6PTn" target="_blank" rel="noopener noreferrer" class="button-tf13 hvr-outline-out2 ms-lg-6 mb-lg-5">Join Now</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
+        
         <div class="card4 ms-lg-5 me-lg-5 mt-lg-5">
-            <div class="card5 px-4 px-lg-5">
+            <div class="card5 px-4 px-lg-5 ">
                 <div class="card-body m">
-                    <div class="mb-2"><img src={props.data ? props.data.image2 : "Loading"} alt="..." width="auto" height="auto" class="img-fluid rounded mx-auto d-block"/></div>
-                    <p class="mt-2 pt-lg-3 text-center font-roboto-condenses ">{props.data ? props.data.text2 : "Loading"}</p>
+                    <div class="mb-2"><img src={props.data ? props.data.image2 : "Loading"} alt="..." width="auto" height="auto" class="img-fluid2 rounded mx-auto d-block"/></div>
+                    <p class="introduction-subheader2 mt-2 pt-lg-3 text-center font-roboto-condenses ">{props.data ? props.data.text2 : "Loading"}</p>
                 </div>
             </div>
         </div>
 
+        
+        <div class="container mt-lg-3 px-lg-5">
+            <div class="row justify-content-md-center px-lg-5">
+                <div class="col-md-auto">
+                <img src={props.data ? props.data.photo : "Loading"} alt="..." class="img-fluid2 rounded" />
+                </div> 
+                <div class="col-md-auto">
+                <img src={props.data ? props.data.photo2 : "Loading"} alt="..." class="img-fluid2 rounded" />
+                </div>
+                <div class="col-md-auto">
+                <img src={props.data ? props.data.photo3: "Loading"}  alt="..." class="img-fluid2 rounded"/>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-lg-3 px-lg-5">
+            <div class="row justify-content-md-center px-lg-5">
+                <div class="col-md-auto">
+                    <iframe src="https://www.youtube.com/embed/IGWoOg33_z4" title="YouTube video player" class="yframe" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div> 
+            </div>
+        </div>
 
         {/* Box */}
 

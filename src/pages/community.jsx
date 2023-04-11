@@ -38,7 +38,7 @@ export const Community = (props) => {
 
     <section class="page-section bg-wlx" id="services">
 
-        <div class="card4 ms-lg-5 me-lg-5">
+        <div class="card4 ms-lg-5 me-lg-5 mb-lg-5">
             <div class="card5 px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-xl-6 col-md-6 text-left">
@@ -50,7 +50,7 @@ export const Community = (props) => {
                     </div>
                     <div class="col-xl-6 col-md-6 text-center">
                         <div class="mt-5">
-                        <div class="mb-2"><img src={props.data ? props.data.image : "Loading"} alt="..." width="auto" height="auto" class="img-fluid rounded mx-auto d-block"/></div>
+                        <div class="mb-2"><img src={props.data ? props.data.image : "Loading"} alt="..." width="auto" height="auto" class="img-fluid2 rounded mx-auto d-block"/></div>
                         <a href="#asdsa" class="button-community hvr-outline-out2">Learn More</a>
                         </div>
                     </div>
@@ -58,12 +58,12 @@ export const Community = (props) => {
             </div>
         </div>
 
-        <div class="card6 ms-lg-5 me-lg-5 mt-lg-5">
+        <div class="card6 ms-lg-5 me-lg-5 mt-lg-5 mb-lg-5">
             <div class="px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-xl-6 col-md-6 text-center">
                         <div class="mt-5">
-                        <div class="mb-2"><img src={props.data ? props.data.image2 : "Loading"} alt="..." width="auto" height="auto" class="img-fluid rounded mx-auto d-block"/></div>
+                        <div class="mb-2"><img src={props.data ? props.data.image2 : "Loading"} alt="..." width="auto" height="auto" class="img-fluid2 rounded mx-auto d-block"/></div>
                         <a href="/tf-13-invictus" class="button-community hvr-outline-out2">Learn More</a>
                         </div>
                     </div>
@@ -90,7 +90,7 @@ export const Community = (props) => {
                     </div>
                     <div class="col-xl-6 col-md-6 text-center">
                         <div class="mt-5">
-                        <div class="mb-2"><img src={props.data ? props.data.image3 : "Loading"} alt="..." width="auto" height="auto" class="img-fluid rounded mx-auto d-block"/></div>
+                        <div class="mb-2"><img src={props.data ? props.data.image3 : "Loading"} alt="..." width="auto" height="auto" class="img-fluid2 rounded mx-auto d-block"/></div>
                         <a href="#asdsa" class="button-community hvr-outline-out2">Learn More</a>
                         </div>
                     </div>
